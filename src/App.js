@@ -6,7 +6,6 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
   Outlet,
   Navigate,
 } from "react-router-dom";
