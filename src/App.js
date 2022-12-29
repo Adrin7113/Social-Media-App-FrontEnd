@@ -14,10 +14,10 @@ import RightBar from "./components/rightbar/RightBar.jsx";
 import "./style.scss";
 import { DarkModeContext } from "./context/darkModeContext.js";
 import { useContext } from "react";
-//import { AuthContext } from "./context/authContext.js";
+import { AuthContext } from "./context/authContext.js";
 
 function App() {
-  const currentUser = true;
+  const { currentUser } = useContext(AuthContext);
 
   const { darkMode } = useContext(DarkModeContext);
 
