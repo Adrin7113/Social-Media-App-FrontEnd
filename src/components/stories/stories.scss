@@ -6,8 +6,9 @@
   margin-bottom: 30px;
 
   @include mobile {
+    align-items: center;
     justify-content: space-between;
-    height: 50px;
+    max-height: 50px;
   }
   @include tablet {
     height: 150px;
