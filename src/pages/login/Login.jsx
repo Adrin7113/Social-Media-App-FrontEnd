@@ -4,7 +4,7 @@ import { AuthContext } from "../../context/authContext";
 import "./login.scss";
 
 const Login = () => {
-  const { login, currentUser } = useContext(AuthContext);
+  const { login } = useContext(AuthContext);
   const navigate = useNavigate();
   const handleLogin = () => {
     login();
